@@ -1,13 +1,13 @@
 0. All Together:
 
-sudo apt-get install gcc-arm-linux-gnueabi
-wget http://www.kernel.org/pub/linux/kernel/v3.0/linux-3.2.tar.bz2
-tar xjf linux-3.2.tar.bz2
-export ARCH=arm
-export CROSS_COMPILE=arm-linux-gnueabi-
-cd linux-3.2
-make vexpress_defconfig
-make all
+ sudo apt-get install gcc-arm-linux-gnueabi
+ wget http://www.kernel.org/pub/linux/kernel/v3.0/linux-3.2.tar.bz2
+ tar xjf linux-3.2.tar.bz2
+ export ARCH=arm
+ export CROSS_COMPILE=arm-linux-gnueabi-
+ cd linux-3.2
+ make vexpress_defconfig
+ make all
 
 Note: If you get error during "make all" follow from step-5.
 
