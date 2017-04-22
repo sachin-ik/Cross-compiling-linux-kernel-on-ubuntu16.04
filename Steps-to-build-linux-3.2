@@ -9,7 +9,7 @@ cd linux-3.2
 make vexpress_defconfig
 make all
 
-If you get error follow from step-5.
+Note: If you get error during "make all" follow from step-5.
 
 -- Description on each command:
 
@@ -55,7 +55,6 @@ $ make all
  - extern inline void *return_address(unsigned int level)
  
   To this: 
-
  + static inline void *return_address(unsigned int level)
    {
   	return NULL;
@@ -65,7 +64,6 @@ $ make all
  In file:  arch/arm/kernel/return_address.c 
 
   Comment out these lines:
-
  - void *return_address(unsigned int level)
  - {
  -	 return NULL;
