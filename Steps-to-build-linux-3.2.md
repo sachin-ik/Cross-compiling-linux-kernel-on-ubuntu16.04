@@ -44,7 +44,7 @@ Note: If you get error during "make all" follow from step-5.
     
     make all 
  
- **6. If you get error: **  
+ **6. If you get error**  
 "error: redefinition of ‘return_address’void *return_address(unsigned int level)"  
 
 - Make following changes to Linux-3.2 source as in patch: https://github.com/torvalds/linux/commit/aeea3592a13bf12861943e44fc48f1f270941f8d  
